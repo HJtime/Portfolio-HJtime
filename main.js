@@ -9,6 +9,20 @@ navbarToggle.addEventListener('click',()=>{
     navbar.classList.toggle('active');
 });
 
+// navbar 투명도 변경
+const navbar=document.querySelector('#navbar');
+const navheight=navbar.getBoundingClientRect().height;
+
+window.addEventListener('scroll', () =>{
+    const scrolling=window.pageYOffset;
+
+    if(scrolling > navheight){
+        navbar.classList.add('navbar__dark');
+    }else{
+        navbar.classList.remove('navbar__dark');
+    }
+});
+
 // Skill 그래프 애니메이션
 const skillvalue=document.querySelector('.skill__value');
 const about=document.querySelector('#about');

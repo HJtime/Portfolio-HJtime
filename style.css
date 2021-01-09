@@ -92,6 +92,7 @@ button{
     position: fixed;
     width: 100%;
     z-index: 1;
+    transition: all 600ms ease-in-out;
 }
 
 .navbar_menu{
@@ -123,6 +124,10 @@ button{
     font-size: 24px;
     display: none;
     color: var(--color-white);
+}
+
+#navbar.navbar__dark{
+    background-color: var(--color-dark-pink);
 }
 
 /* Home */
