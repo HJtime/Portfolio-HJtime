@@ -222,9 +222,10 @@ button{
 }
 
 .skill__value{
-    width: 50%;
+    width: 0;
     height: 5px;
     background-color: var(--color-dark-pink);
+    transition: all 600ms ease-in-out;
 }
 
 .skill span{
