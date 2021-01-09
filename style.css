@@ -373,13 +373,15 @@ button{
     .navbar__toggle-btn{
         display: block;
         right: 16px;
-        top: 10px;
+        top: 13px;
         font-size: var(--font-medium);
     }
 
     #navbar{
         flex-direction: column;
         align-items: flex-start;
+        padding: 10px;
+        background-color: #f77f79;
     }
 
     .navbar_menu{
