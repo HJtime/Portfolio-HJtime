@@ -335,6 +335,7 @@ button{
 /* Contact */
 #contact{
     background-color: var(--color-pink);
+    padding-bottom: 60px;
 }
 
 .contact__links{
@@ -351,4 +352,66 @@ button{
 
 .contact__links i:hover{
     transform: scale(1.1);
+}
+
+/* 반응형 */
+@media screen and (max-width: 760px){
+    :root{
+        /* Font size */
+        --font-large: 30px;
+        --font-medium: 18px;
+        --font-regular: 16px;
+        --font-small: 14px;
+        --font-micro: 12px;
+        }
+    
+    .section{
+        padding: 16px;
+        padding-top: 40px;
+    }
+
+    .navbar__toggle-btn{
+        display: block;
+        right: 16px;
+        top: 10px;
+        font-size: var(--font-medium);
+    }
+
+    #navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar_menu{
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        display: none;
+        padding: 0;
+    }
+
+    .navbar_menu.active{
+        display: block;
+    }
+
+    .skillset__bottom{
+        flex-direction: column;
+    }
+
+    .skill{
+        flex-direction: column;
+    }
+    
+    .skill_description{
+        width: 100%;
+        text-align: center;
+    }
+
+    .skill span{
+        margin-top: 10px;
+    }
+
+    .contact__links{
+        text-align: center;
+    }
 }
