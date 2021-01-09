@@ -25,3 +25,23 @@ window.addEventListener('scroll', ()=>{
         });
     }
 });
+
+// 버튼 클릭 시 위치 이동
+navbarMenu.addEventListener('click', (event)=>{
+    const target=event.target;
+    const link=target.dataset.link;
+
+    if(link===null){
+        return;
+    }
+
+    navbarMenu.classList.remove('active');
+
+    ScrollIntoView(link);
+});
+
+// 버튼 클릭 시 페이지 이동
+function ScrollIntoView(selector){
+    const scrollTo=document.querySelector(selector);
+    scrollTo.scrollIntoView({behavior:'smooth'});
+}
