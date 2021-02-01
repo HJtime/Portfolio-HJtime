@@ -45,10 +45,6 @@
         <p>
             저는 HTML, CSS, JS로 반응형 웹을 개발할 수 있는 프론트엔드 개발자 김현진입니다.<br>배움을 두려워하지 않고 늘 성장해나가고 있습니다.
         </p>
-        <div class="about__profile">
-            <div class="profile__img">
-                <img src="imgs/profile-img.jpeg" alt="profile-img">
-            </div>
             <div class="profile__description">
                 <span>김현진</span>
                 <span>1997.08.06</span>
@@ -100,6 +96,18 @@
                     </div>
                     <span>75%</span>
                 </div>
+                <div class="skill">
+                    <div class="skill__icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="skill_description">
+                        <span>간단한 프로젝트가 가능합니다</span>
+                        <div class="skill__bar">
+                            <div class="skill__value" data-value="50"></div>
+                        </div>
+                    </div>
+                    <span>50%</span>
+                </div>
             </div>
             <div class="skillset__bottom">
                 <div class="tools">
@@ -133,35 +141,57 @@
             <div class="work__projects">
                 <div class="project">
                     <div class="project__description">
-                        <img src="imgs/project-img2.jpg" alt="" class="project__img">
+                        <img src="imgs/project-img7.jpg" alt="" class="project__img">
                         <div class="project__button">
-                            <a href="https://hjtime.github.io/cocacola/" target="blank">
+                            <a href="https://hjtime.github.io/youtube-clone/" target="blank">
                                 <i class="fas fa-eye"></i>
                             </a>
-                            <a href="https://github.com/HJtime/cocacola" target="blank">
+                            <a href="https://github.com/HJtime/youtube-clone" target="blank">
                                 <i class="fab fa-github"></i>
                             </a>
                     </div>
                     </div>
-                    <h3>코카콜라 공홈 리디자인</h3>
-                    <span>반응형 웹으로 만들어졌으며 순수자바스크립트로 드롭다운 메뉴, 이미지 슬라이드를 구현하였습니다.</span>
-                    <span>HTML CSS JS</span>
+                    <div class="project__text">
+                        <h3>유튜브 클론 코딩</h3>
+                        <span>리액트 라우터, 유튜브 API 사용, 검색 가능, 디테일 페이지, 반응형</span>
+                        <span class="project__skill">REACT, postCSS</span>
+                    </div>
                 </div>
                 <div class="project">
                     <div class="project__description">
-                        <img src="imgs/project-img3.jpg" alt="" class="project__img">
+                        <img src="imgs/project-img8.jpg" alt="" class="project__img">
                         <div class="project__button">
-                            <a href="https://hjtime.github.io/NIKE/" target="blank">
+                            <a href="https://hjtime.github.io/student-management/" target="blank">
                                 <i class="fas fa-eye"></i>
                             </a>
-                            <a href="https://github.com/HJtime/NIKE" target="blank">
+                            <a href="https://github.com/HJtime/student-management" target="blank">
                                 <i class="fab fa-github"></i>
                             </a>
-                        </div>
                     </div>
-                    <h3>나이키 공홈 리디자인</h3>
-                    <span>반응형 웹으로 만들어졌으며 순수자바스크립트로 드롭다운 메뉴, 이미지 슬라이드, 제품 필터링을 구현하였습니다.</span>
-                    <span>HTML CSS JS</span>
+                    </div>
+                    <div class="project__text">
+                        <h3>수강생 관리 웹</h3>
+                        <span>로그인, 로그인 사용자 기억, 수강생 추가 및 정보 수정, 수강생 서치, 실시간 수정 가능</span>
+                        <span class="project__skill">REACT, postCSS, firebase, cloudinary</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project__description">
+                        <img src="imgs/project-img6.jpg" alt="" class="project__img">
+                        <div class="project__button">
+                            <a href="https://hjtime.github.io/TODOLIST/" target="blank">
+                                <i class="fas fa-eye"></i>
+                            </a>
+                            <a href="https://github.com/HJtime/TODOLIST" target="blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                    </div>
+                    </div>
+                    <div class="project__text">
+                        <h3>투두리스트</h3>
+                        <span>리스트 삭제와 체크가 가능한 투두리스트입니다.</span>
+                        <span class="project__skill">REACT</span>
+                    </div>
                 </div>
                 <div class="project">
                     <div class="project__description">
@@ -175,9 +205,65 @@
                             </a>
                         </div>
                     </div>
-                    <h3>로또6/45 기능 구현(보완중)</h3>
-                    <span>자바스크립트 연습을 위해 구현한 로또 6/45입니다</span>
-                    <span>HTML CSS JS</span>
+                    <div class="project__text">
+                        <h3>로또6/45 기능 구현(보완중)</h3>
+                        <span>자바스크립트 연습을 위해 구현한 로또 6/45입니다</span>
+                        <span class="project__skill">HTML CSS(flex) JS</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project__description">
+                        <img src="imgs/project-img5.jpg" alt="" class="project__img">
+                        <div class="project__button">
+                            <a href="https://hjtime.github.io/macaron-web/" target="blank">
+                                <i class="fas fa-eye"></i>
+                            </a>
+                            <a href="https://github.com/HJtime/macaron-web" target="blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                    </div>
+                    </div>
+                    <div class="project__text">
+                        <h3>마카롱 사이트 구현</h3>
+                        <span>반응형 웹으로 만들어졌으며 순수자바스크립트로 이미지 슬라이드를 구현하였습니다.</span>
+                        <span class="project__skill">HTML CSS(flex) JS</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project__description">
+                        <img src="imgs/project-img3.jpg" alt="" class="project__img">
+                        <div class="project__button">
+                            <a href="https://hjtime.github.io/NIKE/" target="blank">
+                                <i class="fas fa-eye"></i>
+                            </a>
+                            <a href="https://github.com/HJtime/NIKE" target="blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project__text">
+                        <h3>나이키 공홈 리디자인</h3>
+                        <span>반응형 웹으로 만들어졌으며 순수자바스크립트로 드롭다운 메뉴, 이미지 슬라이드, 제품 필터링을 구현하였습니다.</span>
+                        <span class="project__skill">HTML CSS(flex) JS</span>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project__description">
+                        <img src="imgs/project-img2.jpg" alt="" class="project__img">
+                        <div class="project__button">
+                            <a href="https://hjtime.github.io/cocacola/" target="blank">
+                                <i class="fas fa-eye"></i>
+                            </a>
+                            <a href="https://github.com/HJtime/cocacola" target="blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                    </div>
+                    </div>
+                    <div class="project__text">
+                        <h3>코카콜라 공홈 리디자인</h3>
+                        <span>반응형 웹으로 만들어졌으며 순수자바스크립트로 드롭다운 메뉴, 이미지 슬라이드를 구현하였습니다.</span>
+                        <span class="project__skill">HTML CSS(flex) JS</span>
+                    </div>
                 </div>
                 <div class="project">
                     <div class="project__description">
@@ -191,9 +277,11 @@
                             </a>
                         </div>
                     </div>
-                    <h3>익산시 문화관광 공홈 리디자인</h3>
-                    <span>순수자바스크립트로 드롭다운 메뉴, 이미지 슬라이드 등을 구현하였습니다</span>
-                    <span>HTML CSS JS</span>
+                    <div class="project__text">
+                        <h3>익산시 문화관광 공홈 리디자인</h3>
+                        <span>순수자바스크립트로 드롭다운 메뉴, 이미지 슬라이드 등을 구현하였습니다</span>
+                        <span class="project__skill">HTML CSS(flex) JS</span>
+                    </div>
                 </div>
                 <div class="project">
                     <div class="project__description">
@@ -207,8 +295,10 @@
                             </a>
                         </div>
                     </div>
-                    <h3>현재 포트폴리오 사이트</h3>
-                    <span>HTML CSS JS</span>
+                    <div class="project__text">
+                        <h3>현재 포트폴리오 사이트</h3>
+                        <span class="project__skill">HTML CSS(flex) JS</span>
+                    </div>
                 </div>
             </div>
         </div>
